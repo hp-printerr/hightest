@@ -1,10 +1,8 @@
-MyTV Registration Guide
-========================
 
 .. raw:: html
 
    <div class="site-header">
-     <div class="site-name">MyTV Guide</div>
+     <div class="site-name">amazon.com/mytv</div>
    </div>
 
    <div class="hero-banner">
