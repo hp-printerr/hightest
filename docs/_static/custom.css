@@ -1,1 +1,59 @@
+/* custom.css */
+
+body {
+    font-family: Georgia, serif;
+    background-color: #fdfdfd;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+}
+
+.amazon-link {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.register-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.main-section {
+    background: linear-gradient(to right, #ccefff, #f0faff);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.enter-code-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #0000aa;
+    padding: 12px 24px;
+    border: 2px solid #0000aa;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.instructions {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    color: #000;
+}
 
