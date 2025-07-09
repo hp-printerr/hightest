@@ -29,3 +29,8 @@ Step-by-Step Instructions to Register Your Device
 4. Go to **amazon.com/mytv** on another device.
 5. Enter your code and sign in to complete registration.
 
+.. raw:: html
+
+   <div class="footer">
+       &copy; 2025 MyTV Registration Guide
+   </div>
