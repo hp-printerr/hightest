@@ -1,4 +1,4 @@
-/* Make whole page layout full-width */
+/* Reset body */
 body {
     margin: 0;
     padding: 0;
@@ -6,36 +6,19 @@ body {
     background-color: #fff;
 }
 
-div.document {
-    max-width: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-div.bodywrapper {
-    max-width: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-div.body {
-    max-width: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-/* Remove Alabaster's internal container styling */
+/* Remove default Sphinx/Alabaster width limits */
+div.document,
+div.bodywrapper,
+div.body,
 section {
     max-width: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Header styling */
+/* Header bar at top */
 .header {
     width: 100%;
     background-color: #ffffff;
@@ -45,16 +28,17 @@ section {
     align-items: center;
     border-bottom: 2px solid #eee;
     box-sizing: border-box;
+    position: relative;
+    z-index: 1000;
 }
 
-/* Header link */
 .amazon-link {
     font-size: 24px;
     font-weight: bold;
     color: #000;
+    text-decoration: none;
 }
 
-/* Header button */
 .register-button {
     background-color: #000;
     color: #fff;
@@ -62,36 +46,61 @@ section {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s;
 }
 
-/* Main section with gradient */
+.register-button:hover {
+    background-color: #222;
+}
+
+/* Main Section with gradient background */
 .main-section {
     width: 100%;
-    box-sizing: border-box;
     background: linear-gradient(to right, #ccefff, #f0faff);
-    padding: 40px 40px;
+    padding: 60px 40px;
     text-align: center;
+    box-sizing: border-box;
 }
 
-/* Enter code button inside main section */
 .enter-code-button {
     display: inline-block;
     background-color: #fff;
     color: #0000aa;
-    padding: 12px 24px;
+    padding: 14px 28px;
     border: 2px solid #0000aa;
     border-radius: 5px;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-/* Paragraph text in main section */
+.enter-code-button:hover {
+    background-color: #0000aa;
+    color: #fff;
+}
+
 .instructions {
     font-size: 18px;
     max-width: 900px;
-    margin: 20px auto 0 auto;
+    margin: 0 auto;
     text-align: left;
     color: #000;
     line-height: 1.6;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+/* Footer styling */
+.footer {
+    width: 100%;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #eee;
+    box-sizing: border-box;
 }
