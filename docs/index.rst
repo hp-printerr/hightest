@@ -8,7 +8,7 @@ How to Activate Mytv on Your Device using amazon.com/mytv
 
    <div class="hero-banner">
      <div class="hero-overlay">
-       <h1 class="hero-heading">Register Your Device Now</h1>
+       <h2 class="hero-heading">Register Your Device Now</h2>
        <a class="hero-button" href="#">Enter Registration Code</a>
      </div>
    </div>
