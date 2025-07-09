@@ -91,3 +91,6 @@ body, .document, .bodywrapper, .body, section {
   font-size: 14px;
   box-sizing: border-box;
 }
+h1 {
+    display: none;
+}
