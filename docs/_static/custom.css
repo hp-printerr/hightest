@@ -1,61 +1,79 @@
-/* Make body full width, remove margins */
+/* Make whole page layout full-width */
 body {
     margin: 0;
     padding: 0;
     font-family: Georgia, serif;
+    background-color: #fff;
 }
 
-/* Override alabaster's content width */
-body .document {
+div.document {
     max-width: 100%;
     width: 100%;
-    padding: 0;
-}
-
-/* Remove any inner padding */
-section {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-/* Custom header bar styling */
+div.bodywrapper {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.body {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove Alabaster's internal container styling */
+section {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
 .header {
+    width: 100%;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #eee;
+    box-sizing: border-box;
 }
 
-/* Top left link */
+/* Header link */
 .amazon-link {
     font-size: 24px;
     font-weight: bold;
     color: #000;
 }
 
-/* Top right button */
+/* Header button */
 .register-button {
     background-color: #000;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 24px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
 }
 
-/* Main blue gradient section */
+/* Main section with gradient */
 .main-section {
-    background: linear-gradient(to right, #ccefff, #f0faff);
-    padding: 40px;
-    text-align: center;
-    border-radius: 0;
-    margin-top: 0;
     width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #ccefff, #f0faff);
+    padding: 40px 40px;
+    text-align: center;
 }
 
-/* Button inside blue section */
+/* Enter code button inside main section */
 .enter-code-button {
     display: inline-block;
     background-color: #fff;
@@ -68,12 +86,12 @@ section {
     font-weight: bold;
 }
 
-/* Instruction text in blue section */
+/* Paragraph text in main section */
 .instructions {
     font-size: 18px;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     text-align: left;
     color: #000;
-    line-height: 1.5;
+    line-height: 1.6;
 }
