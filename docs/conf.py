@@ -1,7 +1,7 @@
 project = 'MyTV Registration Guide'
 author = 'Your Name'
 release = ''
-html_title = "MyTV Registration Guide"
+
 
 extensions = []
 
