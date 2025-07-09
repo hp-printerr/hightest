@@ -1,10 +1,24 @@
-/* custom.css */
-
+/* Make body full width, remove margins */
 body {
+    margin: 0;
+    padding: 0;
     font-family: Georgia, serif;
-    background-color: #fdfdfd;
 }
 
+/* Override alabaster's content width */
+body .document {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+/* Remove any inner padding */
+section {
+    padding: 0;
+    margin: 0;
+}
+
+/* Custom header bar styling */
 .header {
     background-color: #ffffff;
     padding: 20px;
@@ -14,12 +28,14 @@ body {
     border-bottom: 2px solid #eee;
 }
 
+/* Top left link */
 .amazon-link {
     font-size: 24px;
     font-weight: bold;
     color: #000;
 }
 
+/* Top right button */
 .register-button {
     background-color: #000;
     color: #fff;
@@ -29,14 +45,17 @@ body {
     font-weight: bold;
 }
 
+/* Main blue gradient section */
 .main-section {
     background: linear-gradient(to right, #ccefff, #f0faff);
-    padding: 30px;
+    padding: 40px;
     text-align: center;
-    border-radius: 10px;
-    margin-top: 20px;
+    border-radius: 0;
+    margin-top: 0;
+    width: 100%;
 }
 
+/* Button inside blue section */
 .enter-code-button {
     display: inline-block;
     background-color: #fff;
@@ -49,11 +68,12 @@ body {
     font-weight: bold;
 }
 
+/* Instruction text in blue section */
 .instructions {
     font-size: 18px;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     text-align: left;
     color: #000;
+    line-height: 1.5;
 }
-
