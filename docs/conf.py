@@ -1,4 +1,4 @@
-project = 'MyTV Registration Guide'
+
 author = 'Your Name'
 release = ''
 
