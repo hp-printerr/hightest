@@ -1,6 +1,7 @@
 project = 'MyTV Registration Guide'
 author = 'Your Name'
 release = '1.0'
+html_title = "MyTV Registration Guide"
 
 extensions = []
 
