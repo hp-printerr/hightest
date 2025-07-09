@@ -3,34 +3,23 @@ MyTV Registration Guide
 
 .. raw:: html
 
-   <div class="header">
-       <span class="amazon-link">amazon.com/mytv</span>
-       <a class="register-button" href="#">Register for Prime Video</a>
+   <div class="site-header">
+     <div class="site-name">MyTV Guide</div>
    </div>
 
-Step-by-Step Guide to Registering for Prime Video with a MyTV Code
-------------------------------------------------------------------
-
-.. raw:: html
-
-   <div class="main-section">
-       <a class="enter-code-button" href="#">Enter Registration Code</a>
-       <p class="instructions">
-       To register your device for Amazon Prime Video using a MyTV code, open the Prime Video app on your smart TV or streaming device. Choose "Sign In" or "Register on the Amazon Website". You will see a unique registration code (MyTV code) on the screen. On a separate device, go to <strong>amazon.com/mytv</strong>, log in with your Amazon account, and enter the code to complete your registration.
-       </p>
+   <div class="hero-banner">
+     <div class="hero-overlay">
+       <h1 class="hero-heading">Register Your Device Now</h1>
+       <a class="hero-button" href="#">Enter Registration Code</a>
+     </div>
    </div>
 
-Step-by-Step Instructions to Register Your Device
--------------------------------------------------
+   <div class="main-content">
+     <p>
+       To register your device for Amazon Prime Video using a MyTV code, open the Prime Video app on your smart TV or streaming device. Choose <strong>"Sign In"</strong> or <strong>"Register on the Amazon Website"</strong>. You will see a unique registration code. On a separate device, go to <strong>amazon.com/mytv</strong>, log in with your Amazon account, and enter the code to complete your registration.
+     </p>
+   </div>
 
-1. Open the Prime Video app on your smart TV.
-2. Choose **Sign In** or **Register on the Amazon Website**.
-3. Note the **MyTV code** displayed.
-4. Go to **amazon.com/mytv** on another device.
-5. Enter your code and sign in to complete registration.
-
-.. raw:: html
-
-   <div class="footer">
-       &copy; 2025 MyTV Registration Guide
+   <div class="site-footer">
+     &copy; 2025 MyTV Guide
    </div>
