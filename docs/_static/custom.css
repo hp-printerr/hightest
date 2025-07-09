@@ -1,34 +1,38 @@
-/* Reset layout */
+/* REMOVE all Sphinx layout limits */
 body, .document, .bodywrapper, .body, section {
   margin: 0;
   padding: 0;
-  max-width: 100%;
-  width: 100%;
+  max-width: 100% !important;
+  width: 100% !important;
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* HEADER */
+/* HEADER - FULL WIDTH BLUE BAR */
 .site-header {
+  width: 100%;
   background-color: #007BFF;
   padding: 20px 40px;
   color: #fff;
+  box-sizing: border-box;
 }
 
 .site-name {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
 }
 
-/* BANNER SECTION */
+/* FULL WIDTH BANNER IMAGE */
 .hero-banner {
+  width: 100%;
   height: 400px;
-  background-image: url('https://via.placeholder.com/1600x400'); /* Placeholder banner image */
+  background-image: url('https://via.placeholder.com/1600x400'); /* Change to your image */
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
+/* DARK OVERLAY WITH TEXT + BUTTON */
 .hero-overlay {
   position: absolute;
   top: 0;
@@ -46,6 +50,7 @@ body, .document, .bodywrapper, .body, section {
   color: #fff;
   font-size: 32px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .hero-button {
@@ -55,7 +60,7 @@ body, .document, .bodywrapper, .body, section {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  transition: 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 .hero-button:hover {
@@ -63,21 +68,26 @@ body, .document, .bodywrapper, .body, section {
   color: #fff;
 }
 
-/* MAIN CONTENT */
+/* MAIN CONTENT AREA */
 .main-content {
+  width: 100%;
   padding: 40px 20px;
-  max-width: 960px;
-  margin: 0 auto;
+  box-sizing: border-box;
   font-size: 17px;
   line-height: 1.6;
   color: #222;
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* FOOTER */
+/* FOOTER - FULL WIDTH BLUE */
 .site-footer {
+  width: 100%;
   background-color: #007BFF;
   color: #fff;
   padding: 20px 40px;
   text-align: center;
   font-size: 14px;
+  box-sizing: border-box;
 }
