@@ -1,0 +1,26 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <!-- No changes here unless needed -->
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  <!-- Override ends here -->
+{% endblock %}
+
+{% block script_files %}
+  {{ super() }}
+  <script>
+    // Kill the RTD flyout if it appears anyway (just in case)
+    const observer = new MutationObserver(() => {
+      const flyout = document.querySelector('.rst-versions');
+      if (flyout) {
+        flyout.remove();
+        observer.disconnect();
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  </script>
+{% endblock %}
