@@ -2,25 +2,8 @@
 
 {% block extrahead %}
   {{ super() }}
-  <!-- No changes here unless needed -->
-{% endblock %}
-
-{% block footer %}
-  {{ super() }}
-  <!-- Override ends here -->
-{% endblock %}
-
-{% block script_files %}
-  {{ super() }}
-  <script>
-    // Kill the RTD flyout if it appears anyway (just in case)
-    const observer = new MutationObserver(() => {
-      const flyout = document.querySelector('.rst-versions');
-      if (flyout) {
-        flyout.remove();
-        observer.disconnect();
-      }
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
-  </script>
+  {% if not READTHEDOCS %}
+    <!-- Only load Read the Docs JS on RTD builds -->
+    <script src="//media.readthedocs.org/javascript/readthedocs-doc-embed.js"></script>
+  {% endif %}
 {% endblock %}
