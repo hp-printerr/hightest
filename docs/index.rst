@@ -15,33 +15,48 @@ How to Verify Your Identity Using usaa.com/verify
    </div>
 
    <div class="main-content">
+
+     <h2>Why Identity Verification Matters</h2>
      <p>
-       In today’s digital landscape, protecting your identity and sensitive personal information is more critical than ever. USAA, known for its trusted financial and insurance services for military members and their families, provides a secure platform for identity verification at <strong>usaa.com/verify</strong>. Whether you're setting up a new account, recovering access, or updating security settings, completing the identity verification process is a vital step in keeping your information secure.
+       In today’s digital age, online security is critical—especially when dealing with sensitive financial and personal information. USAA provides services to military personnel, veterans, and their families, and keeping accounts secure is a top priority. The identity verification process at <strong>usaa.com/verify</strong> ensures that access is granted only to the rightful account holder. This process also helps prevent fraud, identity theft, and unauthorized use of USAA’s services.
      </p>
 
      <p>
-       To begin the verification process, open a browser on your desktop, tablet, or mobile device and navigate to <strong>https://www.usaa.com/verify</strong>. You will be prompted to log in using your USAA member credentials, including your username and password. If you are accessing this page because you've received a request via email, text message, or through your USAA app, rest assured that this is part of USAA’s multi-layered security protocol to ensure that only authorized users gain access to your account.
+       Whether you are setting up a new USAA account, logging in from a new device, or updating your security settings, the verification system is designed to protect you. It uses a secure combination of login credentials, one-time verification codes, and personal information to confirm your identity.
+     </p>
+
+     <h2>Step-by-Step: How to Verify Your Identity</h2>
+     <p>Follow the steps below to complete your identity verification:</p>
+     <ol>
+       <li>Open a browser on your device (desktop or mobile) and go to <strong>https://www.usaa.com/verify</strong>.</li>
+       <li>Log in with your USAA username and password.</li>
+       <li>You may be asked to enter a one-time verification code sent to your registered mobile number or email address.</li>
+       <li>Enter the code on the website and click "Continue."</li>
+       <li>If prompted, answer any security questions or confirm details such as your mailing address or last transaction.</li>
+       <li>Once verification is complete, you will be redirected to your account dashboard where you can manage your services.</li>
+     </ol>
+
+     <p>
+       If you have trouble receiving the code or completing any step, USAA offers support through live chat, phone, and the mobile app. You can also request the code be sent again or choose an alternate method.
+     </p>
+
+     <h2>Best Practices for Secure Verification</h2>
+     <p>
+       Always make sure you are accessing a secure website. Look for the HTTPS lock icon in your browser’s address bar and double-check that the URL is spelled correctly. Never click on suspicious or unsolicited links claiming to be from USAA.
      </p>
 
      <p>
-       After logging in, the system may request that you enter a verification code sent to your registered email address or mobile number. This two-step verification process adds an extra layer of protection to help prevent unauthorized access. Be sure to check your messages for a code and enter it into the appropriate field. If you did not receive a code, you can request a new one or use an alternative verification method, such as answering security questions or verifying personal information.
+       USAA will never ask for your password or full Social Security number in an email or over the phone. If you receive such a request, it could be a phishing attempt. In such cases, report the activity to USAA immediately.
      </p>
 
      <p>
-       The identity verification process at USAA is quick, intuitive, and designed with user convenience in mind. Once your identity has been verified successfully, you will be redirected to your account dashboard where you can access your banking, insurance, and investment services. You’ll also be able to update your profile, change account preferences, and manage your security settings.
+       To stay protected, regularly update your password, enable multi-factor authentication, and review your account activity for any unauthorized actions.
      </p>
 
      <p>
-       It’s important to note that USAA will never ask for your full Social Security number or account password through email or unsolicited messages. Always ensure that you're accessing <strong>usaa.com/verify</strong> through a secure browser session and never click on suspicious or unfamiliar links. For your safety, verify that the page is protected by HTTPS and that the domain name is spelled correctly.
+       In summary, using <strong>usaa.com/verify</strong> is a quick, secure way to confirm your identity and access your USAA services with peace of mind. Take a few minutes today to complete your verification and strengthen the safety of your account.
      </p>
 
-     <p>
-       If you encounter any issues during the verification process or are unsure about the legitimacy of a verification request, USAA provides 24/7 customer support. You can contact a representative through the USAA mobile app, by phone, or through the live chat feature on the website. Their team is trained to help you resolve security issues and guide you through any part of the identity verification process.
-     </p>
-
-     <p>
-       In summary, verifying your identity at <strong>usaa.com/verify</strong> is an essential security measure that protects your finances, personal information, and account integrity. USAA's commitment to cybersecurity ensures that members can perform secure transactions with confidence. Take a few moments to complete your identity verification today and experience peace of mind knowing that your USAA account is protected.
-     </p>
    </div>
 
    <div class="site-footer">
