@@ -94,3 +94,6 @@ body, .document, .bodywrapper, .body, section {
 h1 {
     display: none;
 }
+#rtd-footer-container, .rst-versions {
+  display: none !important;
+}
