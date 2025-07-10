@@ -5,15 +5,6 @@ How to Activate Mytv on Your Device using amazon.com/mytv
 
 .. raw:: html
 
-<script>
-     document.addEventListener("DOMContentLoaded", function () {
-       var badge = document.querySelector('.rst-versions');
-       if (badge) {
-         badge.remove(); // Completely removes the element
-       }
-     });
-   </script>
-
    <div class="site-header">
      <div class="site-name">amazon.com/mytv</div>
    </div>
