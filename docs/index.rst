@@ -1,5 +1,7 @@
 How to Activate Mytv on Your Device using amazon.com/mytv
 ====================
+.. meta::
+   :msvalidate.01: 108BF3BCC1EC90CA1EBEFF8001FAEFEA
 .. raw:: html
 
    <div class="site-header">
