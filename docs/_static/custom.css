@@ -94,6 +94,12 @@ body, .document, .bodywrapper, .body, section {
 h1 {
     display: none;
 }
-#rtd-footer-container, .rst-versions {
+/* Hide the Read the Docs flyout version menu */
+.rst-versions,
+.rst-versions.rst-badge {
   display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  z-index: -1 !important;
 }
+
